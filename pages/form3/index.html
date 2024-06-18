@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Voluntários CCG</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-32x32.png" sizes="32x32">
+    <link rel="stylesheet" href="styles.css"> <!-- Estilos da segunda página -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <img class="logo" src="/assets/logo-ccg.svg" alt="Logo da Crazy Cat Gang" />
+        <h1>Cadastro de voluntários CCG</h1>
+        <form class="info" action="/pages/form4/index.html">
+            <div>
+                <label for="email_input">E-mail</label>
+                <input name="email_input" placeholder="Seu e-email" type="email" required>
+            </div>
+
+            <div>
+                <label for="name_input">Nome Completo</label>
+                <input name="name_input" placeholder="Seu nome completo" type="text" required>
+            </div>
+
+            <div>
+                <label for="cpf_input">CPF</label>
+                <input name="cpf_input" placeholder="Seu CPF" type="text" required>
+            </div>
+        </form>
+
+        <div class="check">
+            <input type="checkbox" id="concordotermos" required>
+            <label for="concordotermos">Eu concordo com os </label><a href="#">Termos de Voluntariado da CCG</a>.
+        </div>
+
+        <div>
+            <button class="button" type="submit" onclick="document.location='/pages/form4/index.html'">ENVIAR!</button>
+        </div>
+    </div>
+</body>
+
+</html>

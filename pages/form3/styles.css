@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFCB04;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    background-color: #FFF;
+    width: 980px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 225px;
+    height: 225px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Poppins", "Inter", sans-serif;
+}
+
+.description p {
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.container .button {
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 325px;
+    height: 75px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #FFCB04;
+}
+
+/* Estilos para os inputs */
+.info div {
+    position: relative;
+    /* Para posicionar os labels de forma absoluta em relação aos inputs */
+    margin-top: 32px;
+    margin-bottom: 48px;
+
+}
+
+.info input {
+    width: 356px;
+    height: 65px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 12px;
+}
+
+.info label {
+    position: absolute;
+    left: 15px;
+    top: -32px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.check {
+    max-width: 365px;
+    font-size: 20px;
+}
+
+.check input {
+    height: 24px;
+    width: 24px;
+}
